@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #181818;
+  font-family: 'Inter', Georgia, sans-serif;
+  color: #ffffff;
+  min-height: 100%;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --heading: #fff;
+  --color-docket-white: #ededed;
+  --white-lite: #f4f7fd;
+  --transparent: #fff0;
+  --primary: white;
+  --inter: Inter, Georgia, sans-serif;
+  --untitled-ui--black: #181818;
+  --white: white;
+  --text-mid: #b2bbc8;
+  --purple: #623afe;
+  --color-gray-lighter: #b4b4b4;
+  --pink: #ed8bfe;
+  --yellow: #edff7c;
+  --untitled-ui--gray200: #eaecf0;
+  --untitled-ui--gray500: #667085;
+  --untitled-ui--gray50-2: #f9fafb;
+  --untitled-ui--white: white;
+  --untitled-ui--gray900: #101828;
+  --untitled-ui--gray600: #475467;
+  --untitled-ui--gray400: #98a2b3;
+  --untitled-ui--gray700: #344054;
+  --untitled-ui--gray800: #1d2939;
+  --untitled-ui--gray100: #f2f4f7;
+  --color-docket-gray: #2e2e2e;
+  --untitled-ui--primary100: #f4ebff;
+  --color-gray: #343434;
+  --untitled-ui--primary700: #6941c6;
+  --untitled-ui--blue500: #2e90fa;
+  --untitled-ui--primary600: #7f56d9;
+  --untitled-ui--primary50: #f9f5ff;
+  --untitled-ui--blue700: #175cd3;
+  --body: #181818;
+  --primary-red: #ff5d4d;
+  --primary-blue: #5272fa;
+  --untitled-ui--primary200: #e9d7fe;
+  --orange: #ffa04d;
+  --untitled-ui--success700: #027a48;
+  --untitled-ui--primary800: #53389e;
+  --untitled-ui--success50: #ecfdf3;
+  --untitled-ui--gray25: #fcfcfd;
+  --untitled-ui--primary300: #d6bbfb;
+  --untitled-ui--warning500: #f79009;
+  --untitled-ui--pink500: #ee46bc;
+  --untitled-ui--orange50: #fef6ee;
+  --untitled-ui--blue50-2: #eff8ff;
+  --untitled-ui--pink50-2: #fdf2fa;
+  --untitled-ui--indigo50-2: #eef4ff;
+  --untitled-ui--success500: #12b76a;
+  --untitled-ui--indigo700: #3538cd;
+  --untitled-ui--orange700: #b93815;
+  --untitled-ui--indigo500: #6172f3;
+  --untitled-ui--pink700: #c11574;
+  --untitled-ui--warning300: #fec84b;
+  --untitled-ui--primary500: #9e77ed;
+  --untitled-ui--primary25: #fcfaff;
+}
+
+/* Gradient text utility */
+.gradient-text {
+  background: linear-gradient(90deg, #ed8bfe 0%, #93c5fd 50%, #b86694 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hide scrollbar but keep functionality */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #181818;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #343434;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475467;
+}
