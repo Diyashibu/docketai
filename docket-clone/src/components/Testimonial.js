@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { Box, Container, Typography, IconButton } from '@mui/material';
-import { styled } from '@mui/material/styles';
+
 
 const TestimonialSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

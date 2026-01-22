@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Container, Typography } from '@mui/material';
-import { styled } from '@mui/material/styles';
+
 
 const Integrations = () => {
   return (
@@ -141,7 +141,6 @@ const Integrations = () => {
               gridColumnGap: '6px',
               gridRowGap: '6px',
               boxShadow: 'none',
-              color: 'var(--system-black)',
               letterSpacing: '-0.5px',
               backgroundColor: '#ededed',
               borderRadius: '16px',

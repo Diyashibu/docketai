@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Box, Container, Typography } from '@mui/material';
-import { styled } from '@mui/material/styles';
+import { Box, Typography } from '@mui/material';
 
 const BlogCard = ({ title, readTime, link, image, index }) => {
   const [isHovered, setIsHovered] = useState(false);

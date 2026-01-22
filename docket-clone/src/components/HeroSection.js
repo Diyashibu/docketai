@@ -1,15 +1,8 @@
 import React from 'react';
 import { Box, Container, Typography, Button } from '@mui/material';
-import { styled } from '@mui/material/styles';
 
-const GradientText = styled('span')({
-  background: 'linear-gradient(90deg, #c8b3e0 0%, #add9ef 50%, #c8b3e0 100%)',
-  WebkitBackgroundClip: 'text',
-  WebkitTextFillColor: 'transparent',
-  backgroundClip: 'text',
-  display: 'inline',
-  textShadow: 'none',
-});
+
+
 
 const HeroSection = () => {
   return (
@@ -113,7 +106,7 @@ const HeroSection = () => {
             >
               Turn every visit into a qualified meeting{' '}
             </Box>
-            {/*<GradientText>into a qualified meeting</GradientText>*/}
+ 
           </Typography>
 
           <Typography
