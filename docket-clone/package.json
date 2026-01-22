@@ -1,5 +1,6 @@
 {
   "name": "docket-clone",
+  "homepage": "https://docketai3.vercel.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
